@@ -36,7 +36,7 @@ public class BucketController {
         List<Document> seedData = new ArrayList<Document>();
         String url = this.amazonClient.uploadFile(file);
 
-        CRUD(url);
+        //CRUD(url);
         return url;
     }
     @PostMapping("/crudOperations")
